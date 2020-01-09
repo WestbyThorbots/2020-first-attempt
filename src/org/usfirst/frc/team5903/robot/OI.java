@@ -1,7 +1,11 @@
 package com.swervedrivespecialties.exampleswerve;
 
 import com.swervedrivespecialties.exampleswerve.subsystems.DrivetrainSubsystem;
+<<<<<<< HEAD
 import edu.wpi.first.wpilibj.XboxController;
+=======
+import edu.wpi.first.wpilibj.Joystick;
+>>>>>>> upstream/master
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 import edu.wpi.first.wpilibj.command.InstantCommand;
 
