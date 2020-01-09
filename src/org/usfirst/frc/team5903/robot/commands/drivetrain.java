@@ -14,15 +14,15 @@ public class DriveCommand extends Command {
 
     @Override
     protected void execute() {
-        double forward = -Robot.getOi().getPrimaryJoystick().getRawAxis(1);
+        double forward = -Robot.getOi().getXboxController0().getX();
         // Square the forward stick
         forward = Math.copySign(Math.pow(forward, 2.0), forward);
 
-        double strafe = -Robot.getOi().getPrimaryJoystick().getRawAxis(0);
+        double strafe = -Robot.getOi().getXboxController0().getY();
         // Square the strafe stick
         strafe = Math.copySign(Math.pow(strafe, 2.0), strafe);
 
-        double rotation = -Robot.getOi().getPrimaryJoystick().getRawAxis(4);
+        double rotation = -Robot.getOi().getXboxController0().getTriggerAxis();
         // Square the rotation stick
         rotation = Math.copySign(Math.pow(rotation, 2.0), rotation);
 
