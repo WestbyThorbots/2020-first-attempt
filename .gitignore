@@ -102,3 +102,26 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Intellij files
+.idea/
+out/
+
+# Gradle files
+.gradle/
+build/
+
+# Test outputs
+*.csv
+
+# Eclipse files
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code files
+.vscode/
+
+# WPILIB files
+.wpilib/
