@@ -6,7 +6,7 @@ Type these into a terminal window so you get used to entering commands. Don't ju
 
 1. Install build tools and python "*virtual environment*"
 
-    ```sudo apt install build-essential python3-dev virtualenv python3-virtualenv```
+    ```sudo apt install build-essential python3-dev python3.7-dev virtualenv python3-virtualenv```
 
 1. Create a new folder for pyfrc in your ```${HOME}``` directory.
 
